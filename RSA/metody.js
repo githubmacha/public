@@ -1,4 +1,3 @@
-
 function sam(n, e, m){ // Square and multiply
     var out = 1;
     var b = binary(e);

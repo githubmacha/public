@@ -1,6 +1,4 @@
-
 var n, e, d, c, m;
-
 
 function en(){
     dec();
@@ -14,7 +12,6 @@ function de(){
     alert(m);
 }
 
-
 function dec(){
     n = x("mod");
     e = x("sk");
@@ -22,4 +19,3 @@ function dec(){
     c = x("vz");
     d = x("vk");
 }
-

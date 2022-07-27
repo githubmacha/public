@@ -1,8 +1,6 @@
-
-
-var zb, cis, ka, kb, i;
-
 function eucl(a, b) {
+    var zb, cis, ka, kb, i;
+
     zb = [a, b];
     cis = [0, 0];
     ka = [1, 0];

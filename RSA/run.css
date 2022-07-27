@@ -3,7 +3,6 @@
     font-family: "Arial";
 }
 
-
 html, body{
     width: 100%;
     height: 100%;
@@ -18,23 +17,28 @@ html, body{
 #tab{
     width: 100%;
 }
+
 #tab{
     border-collapse: collapse;
 }
+
 #tab tr{
     border: 2px solid black;
     background: #DDD;
 }
+
 #tab tr:nth-child(even){
     background: #BBB;
 }
+
 #tab td{
     border: 2px solid black;
     text-align: center;
 }
 
-
-
+img{
+    width: 100%;
+}
 
 button{
     margin: 3px 0;
