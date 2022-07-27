@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: "Arial";
 }
 
 
@@ -40,7 +41,7 @@ button{
     width: 100%;
     background: #EA9;
     border: 2px solid black;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 input{
@@ -50,7 +51,7 @@ input{
 
 input, span{
     width: 50%;
-    height: 40px;
-    font-size: 30px;
-    line-height: 40px;
+    height: 20px;
+    font-size: 15px;
+    line-height: 20px;
 }
