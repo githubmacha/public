@@ -37,7 +37,7 @@ button{
     width: 100%;
     background: #EA9;
     border: 2px solid black;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 input{
@@ -47,5 +47,7 @@ input{
 
 input, span{
     width: 50%;
-    height: 20px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
 }
