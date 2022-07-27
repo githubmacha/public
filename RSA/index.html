@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Šifry</title>
+    <link rel="stylesheet" href="run.css">
+</head>
+<body>
+    <span>Modulo</span>
+    <input type="number" id="mod" value=""></br></br>
+    <span>Majitel se soukromým klíčem</span></br>
+    <span>Soukromý klíč</span>
+    <input type="number" id="sk" value=""></br>
+    <span>Zpráva</span>
+    <input type="number" id="sz"></br>
+    <button onclick="en();">Šifrovat</button>
+    </br></br>
+
+    <span>Majitel s veřejným klíčem</span></br>
+    <span>Veřejný klíč</span>
+    <input type="number" id="vk" value=""></br>
+    <span>Zpráva</span>
+    <input type="number" id="vz"></br>
+    <button onclick="de();">Šifrovat</button>
+    
+    </br></br></br>
+    <button onclick="gen()">Generovat klíče</button>
+    <table id="tab">
+        <thead>
+            <tr>
+                <th>P</th>
+                <th>Q</th>
+                <th>Mod</th>
+                <th>Sou. kl.</th>
+                <th>Veř. kl.</th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+            
+        </tbody>
+    </table>
+    
+    <script src="metody.js"></script>
+    <script src="sifry.js"></script>
+    <script src="klice.js"></script>
+    <script src="eucl.js"></script>
+</body>
+</html>
